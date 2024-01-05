@@ -11,7 +11,7 @@ function Contact() {
       </p>
 
       <div className="contact-cta">
-        <Button text="Say hello" link="mailto:kwadwobaahdanso@gmail.com"/>
+        <Button text="Send a message" link="mailto:kwadwobaahdanso@gmail.com"/>
       </div>
     </div>
   )

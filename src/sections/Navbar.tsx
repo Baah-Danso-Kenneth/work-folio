@@ -8,6 +8,8 @@ import {motion} from 'framer-motion'
 import Image from 'next/image';
 
 function Navbar() {
+  const imageUrl = 'https://work-folio-ken.s3.eu-north-1.amazonaws.com/assets/images/brand-log.png'
+
   const [navbarVisible, setNavbarVisible]=useState(false)
   const [responsiveNavVisible, setResponsiveNavVisible]=useState(false)
 
@@ -58,7 +60,7 @@ function Navbar() {
          <div className="brand"
          >
           <Link href="#">
-            <Image src="/assets/images/brand-log.png" alt="" width={150} height={80}/>
+            <Image src={imageUrl} alt="" width={150} height={80}/>
           </Link>
          </div>
 
@@ -77,7 +79,7 @@ function Navbar() {
             {
               sectionLinks.map(({name,link})=>(
                 <li key={name} className='nav-items-list-item'>
-                <Link href={link}key={name} className='nav-items-list-item-link'>{name}</Link>
+                <Link href={link} className='nav-items-list-item-link'>{name}</Link>
                 </li>
               ))
             }

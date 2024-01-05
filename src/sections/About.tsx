@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 
 function About() {
+    const imageUrl = 'https://work-folio-ken.s3.eu-north-1.amazonaws.com/assets/images/profile.jpg'
   return (
     <div className='about' id="about">
         <div className="title">
@@ -44,7 +45,7 @@ function About() {
                 <div className="overlay"></div>
                 <div className="overlay-border"></div>
                 <div className="about-grid-photo-container">
-                    <Image src="/assets/images/profile.jpg" alt="bunny" fill/>
+                    <Image src={imageUrl} alt="bunny" fill/>
                 </div>
             </div>
         </div>

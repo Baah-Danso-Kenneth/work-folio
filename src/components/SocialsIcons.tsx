@@ -9,10 +9,10 @@ import {
 
 function SocialIcons() {
         const socialLinks=[
-        {name:'Github', icon:<FiGithub/>, link:"https://www.github.com"},
-        {name:'LinkedIn', icon:<FiLinkedin/>, link:"#"},
-        {name:'Twitter', icon:<FiTwitter/>, link:'#'},
-        {name:'Instagram', icon:<FiInstagram/>, link:'#'}
+        {name:'Github', icon:<FiGithub/>, link:"https://github.com/Baah-Danso-Kenneth"},
+        {name:'LinkedIn', icon:<FiLinkedin/>, link:"https://www.linkedin.com/in/kwadwo-danso-sudo-reboot"},
+        {name:'Twitter', icon:<FiTwitter/>, link:'https://twitter.com/drf_react_next'},
+     
     ]
 
   return (
