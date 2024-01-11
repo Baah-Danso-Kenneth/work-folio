@@ -8,7 +8,7 @@ import {motion} from 'framer-motion'
 import Image from 'next/image';
 
 function Navbar() {
-  const imageUrl = 'https://work-folio-ken.s3.eu-north-1.amazonaws.com/assets/images/brand-log.png'
+  const imageUrl = 'https://work-folio-kenny.s3.eu-north-1.amazonaws.com/assets/images/brand-log.png'
 
   const [navbarVisible, setNavbarVisible]=useState(false)
   const [responsiveNavVisible, setResponsiveNavVisible]=useState(false)

@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 
 function About() {
-    const imageUrl = 'https://work-folio-ken.s3.eu-north-1.amazonaws.com/assets/images/profile.jpg'
+    const imageUrl = 'https://work-folio-kenny.s3.eu-north-1.amazonaws.com/assets/images/profile.jpg'
   return (
     <div className='about' id="about">
         <div className="title">

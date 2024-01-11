@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images:{
+  output:"export",
+  'images':{
     remotePatterns:[
       {
-        protocol:'https',
-        hostname:'work-folio-ken.s3.eu-north-1.amazonaws.com'
+        protocol:"https",
+        hostname:"work-folio-kenny.s3.eu-north-1.amazonaws.com"
       }
     ]
   }
