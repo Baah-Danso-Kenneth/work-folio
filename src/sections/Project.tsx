@@ -13,27 +13,30 @@ interface ProjectProps{
 function Projects() {
     const projectsData=[
         {
-            image:"/franace.jpeg",
-            projectName:'Postagram',
-            projectLink:'#',
+            image:"https://work-folio-kenny.s3.eu-north-1.amazonaws.com/assets/images/pgram-img.png",
+            projectName:'Postram',
+            projectLink:'http://postagram-bucket-ui.s3-website.eu-north-1.amazonaws.com/',
             projectDescription:"This is a web application that uses Social media to  communicate",
             projectTech:[
                 "React",
                 "useContextAPI",
                 "React boostrap",
                 "Django API",
-                "Typescript"
+                "Typescript",
+                "Docker",
+                "AWS[EC2, S3 ]",
+                
             ],
             projectExternalLinks:{
-                github:"",
-                externalLink:"",
+                github:"https://github.com/Baah-Danso-Kenneth/postagram",
+                externalLink:"http://postagram-bucket-ui.s3-website.eu-north-1.amazonaws.com/",
             },
         },
 
 
             {
             image:"/oaxaca.jpeg",
-            projectName:'Postagram',
+            projectName:'Onyx Tour',
             projectLink:'#',
             projectDescription:"This is a web application that uses Social media to  communicate",
             projectTech:[
@@ -52,7 +55,7 @@ function Projects() {
 
             {
             image:"/sleepy.png",
-            projectName:'Postagram',
+            projectName:'volvo',
             projectLink:'#',
             projectDescription:"This is a web application that uses Social media to  communicate",
             projectTech:[
@@ -72,7 +75,7 @@ function Projects() {
 
             {
             image:"/yoga.png",
-            projectName:'Postagram',
+            projectName:'gram',
             projectLink:'#',
             projectDescription:"This is a web application that uses Social media to  communicate",
             projectTech:[
@@ -91,7 +94,7 @@ function Projects() {
 
             {
             image:"/travel_like_fem.png",
-            projectName:'Postagram',
+            projectName:'Po',
             projectLink:'#',
             projectDescription:"This is a web application that uses Social media to  communicate",
             projectTech:[
@@ -110,7 +113,7 @@ function Projects() {
 
             {
             image:"/franace.jpeg",
-            projectName:'Postagram',
+            projectName:'stam',
             projectLink:'#',
             projectDescription:"This is a web application that uses Social media to  communicate",
             projectTech:[
@@ -139,7 +142,7 @@ function Projects() {
                                 projectTech,
                                 projectExternalLinks,
                                 projectName},index)=>(
-                <div className="project" key={index}>
+                <div className="project" key={projectName}>
                     <div className="project-image">
                         <div className="project-image-overlay"></div>
                         <div className="project-image-container">
@@ -167,8 +170,8 @@ function Projects() {
                       </li>
 
                         <li className="project-info-links-item">
-                        <Link  href={projectExternalLinks.github} className='project-info-links-item-link'>
-                         <FiExternalLink/>
+                        <Link  href={projectExternalLinks.externalLink} className='project-info-links-item-link'>
+                           <FiExternalLink/>
                         </Link>
                     </li>
                       </ul>
