@@ -45,8 +45,8 @@ function Projects() {
                 "Sass"
             ],
             projectExternalLinks:{
-                github:"",
-                externalLink:"",
+                github:"https://github.com/Baah-Danso-Kenneth/UI-Estate-project",
+                externalLink:"http://ui-for-estate-bucket.s3-website.eu-north-1.amazonaws.com",
             },
         },
 
