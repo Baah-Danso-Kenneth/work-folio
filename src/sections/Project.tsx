@@ -35,7 +35,7 @@ function Projects() {
 
 
             {
-            image:"/realestate.png",
+            image:"https://work-folio-kenny.s3.eu-north-1.amazonaws.com/assets/images/realestate.png",
             projectName:'Real Estate Frontend',
             projectLink:'#',
             projectDescription:"A project which focuses on the responsiveness and creating frontend with React",
@@ -55,7 +55,7 @@ function Projects() {
             image:"https://work-folio-kenny.s3.eu-north-1.amazonaws.com/assets/images/food-service.png",
             projectName:'UI/UX Food Service',
             projectLink:'#',
-            projectDescription:"UI/UX design template for a food delivery company ",
+            projectDescription:"UI/UX design for a food delivery service ",
             projectTech:[
                 "Figma"
             ],
@@ -71,7 +71,7 @@ function Projects() {
             image:"https://work-folio-kenny.s3.eu-north-1.amazonaws.com/assets/images/mobile-app.png",
             projectName:'UI/UX Fintech Project',
             projectLink:'',
-            projectDescription:"This is a web application that uses Social media to  communicate",
+            projectDescription:"A UX for a fintech for a mobile application project designed with figma",
             projectTech:[
                 "Figma",
             ],
@@ -83,10 +83,10 @@ function Projects() {
 
 
             {
-            image:"/travel_like_fem.png",
+            image:'https://work-folio-kenny.s3.eu-north-1.amazonaws.com/assets/images/graphics.png',
             projectName:'Graphic Design',
             projectLink:'#',
-            projectDescription:"Flyer fo pastries client using canva",
+            projectDescription:"Flyer for pastries client using canva",
             projectTech:[
                 "Canva",
             ],
@@ -97,23 +97,23 @@ function Projects() {
         },
 
 
-            {
-            image:"/franace.jpeg",
-            projectName:'stam',
-            projectLink:'#',
-            projectDescription:"This is a web application that uses Social media to  communicate",
-            projectTech:[
-                "React",
-                "useContextAPI",
-                "React boostrap",
-                "Django API",
-                "Typescript"
-            ],
-            projectExternalLinks:{
-                github:"",
-                externalLink:"",
-            },
-        },
+        //     {
+        //     image:"/franace.jpeg",
+        //     projectName:'stam',
+        //     projectLink:'#',
+        //     projectDescription:"This is a web application that uses Social media to  communicate",
+        //     projectTech:[
+        //         "React",
+        //         "useContextAPI",
+        //         "React boostrap",
+        //         "Django API",
+        //         "Typescript"
+        //     ],
+        //     projectExternalLinks:{
+        //         github:"",
+        //         externalLink:"",
+        //     },
+        // },
 
     ]
   return (

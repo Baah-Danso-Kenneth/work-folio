@@ -12,15 +12,13 @@ function About() {
         <div className="about-grid">
             <div className="about-grid-info">
                 <p className="about-grid-info-text">
-                   Enthusiastic about coding and eager to embark on a journey of learning and growth, I am excited to contribute to the world of technology through hands-on experience. With a strong attention to detail and a passion for problem-solving, I explore the intricacies of code to turn concepts into reality.
-
+                Passionate about coding and committed to continual learning and growth, I am thrilled to contribute to the realm of technology through hands-on experience. With a keen eye for detail and a knack for problem-solving, I delve into the intricacies of code to transform ideas into reality.
                 </p>
                 <p className="about-grid-info-text">
-               As an intern, I view every coding challenge as an opportunity to expand my skills and embrace new ideas. Whether it &apos;s crafting user-friendly interfaces, working on scalable backend systems, or enhancing performance, I am energized by the dynamic nature of coding.
-
+                As a junior developer, I approach each coding challenge as an opportunity to enhance my skills and embrace fresh perspectives. Whether it&apos;s crafting intuitive user interfaces, building robust backend systems, or optimizing performance, I thrive on the ever-evolving landscape of coding
                 </p>
                 <p className="about-grid-info-text">
-                    During my coding journey, I am dedicated to honing my skills, emphasizing clean code practices, and staying current with the latest technologies. As an intern eager to integrate into the coding community, I value collaboration, knowledge-sharing, and the continuous pursuit of improvement.
+                Throughout my coding journey, I am dedicated to refining my expertise, prioritizing clean code practices, and staying abreast of the latest advancements in Python and JavaScript. As a collaborative team player, I value diversity and believe in the power of collective achievement, where every individual&apos;s unique background contributes to our shared success.
                 </p>
                     <p className="about-grid-info-text">
                         My skills sets includes
