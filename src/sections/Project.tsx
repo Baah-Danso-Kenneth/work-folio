@@ -14,9 +14,9 @@ function Projects() {
     const projectsData=[
         {
             image:"https://work-folio-kenny.s3.eu-north-1.amazonaws.com/assets/images/pgram-img.png",
-            projectName:'Postram',
+            projectName:'Postagram',
             projectLink:'http://postagram-bucket-ui.s3-website.eu-north-1.amazonaws.com/',
-            projectDescription:"This is a web application that uses Social media to  communicate",
+            projectDescription:"A fullstack project which uses Django Restframework for it backend and React for Frontentd: The project is a Social media app that allows users to post, like and update their post as well as personal data",
             projectTech:[
                 "React",
                 "useContextAPI",
@@ -35,16 +35,14 @@ function Projects() {
 
 
             {
-            image:"/oaxaca.jpeg",
-            projectName:'Onyx Tour',
+            image:"/realestate.png",
+            projectName:'Real Estate Frontend',
             projectLink:'#',
-            projectDescription:"This is a web application that uses Social media to  communicate",
+            projectDescription:"A project which focuses on the responsiveness and creating frontend with React",
             projectTech:[
                 "React",
-                "useContextAPI",
-                "React boostrap",
-                "Django API",
-                "Typescript"
+                "Aos-Animation Sass",
+                "Sass"
             ],
             projectExternalLinks:{
                 github:"",
@@ -54,59 +52,47 @@ function Projects() {
 
 
             {
-            image:"/sleepy.png",
-            projectName:'volvo',
+            image:"https://work-folio-kenny.s3.eu-north-1.amazonaws.com/assets/images/food-service.png",
+            projectName:'UI/UX Food Service',
             projectLink:'#',
-            projectDescription:"This is a web application that uses Social media to  communicate",
+            projectDescription:"UI/UX design template for a food delivery company ",
             projectTech:[
-                "React",
-                "useContextAPI",
-                "React boostrap",
-                "Django API",
-                "Typescript"
+                "Figma"
             ],
             projectExternalLinks:{
                 github:"",
-                externalLink:"",
+                externalLink:"https://www.figma.com/file/dUQRbNe5JRnCk0tHLpdq3K/Delivery-App?type=design&node-id=0%3A1&mode=design&t=4XSPouUz2YaoOtzx-1",
             },
         },
 
 
 
             {
-            image:"/yoga.png",
-            projectName:'gram',
-            projectLink:'#',
+            image:"https://work-folio-kenny.s3.eu-north-1.amazonaws.com/assets/images/mobile-app.png",
+            projectName:'UI/UX Fintech Project',
+            projectLink:'',
             projectDescription:"This is a web application that uses Social media to  communicate",
             projectTech:[
-                "React",
-                "useContextAPI",
-                "React boostrap",
-                "Django API",
-                "Typescript"
+                "Figma",
             ],
             projectExternalLinks:{
                 github:"",
-                externalLink:"",
+                externalLink:"https://www.figma.com/file/3dfaSyGVZNyLrBjbrk7QbF/Fintech-App?type=design&node-id=0%3A1&mode=design&t=4XSPouUz2YaoOtzx-1",
             },
         },
 
 
             {
             image:"/travel_like_fem.png",
-            projectName:'Po',
+            projectName:'Graphic Design',
             projectLink:'#',
-            projectDescription:"This is a web application that uses Social media to  communicate",
+            projectDescription:"Flyer fo pastries client using canva",
             projectTech:[
-                "React",
-                "useContextAPI",
-                "React boostrap",
-                "Django API",
-                "Typescript"
+                "Canva",
             ],
             projectExternalLinks:{
                 github:"",
-                externalLink:"",
+                externalLink:"https://www.canva.com/design/DAFwSIGiGR0/qc3sfx0gAT5ugoL4bDVxZA/edit?utm_content=DAFwSIGiGR0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
             },
         },
 

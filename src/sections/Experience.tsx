@@ -27,7 +27,7 @@ function Experience() {
       {name:"BestQuote", 
         role:"FullStack Developer",
          start:'January 2022',
-          end:'March 2022',
+          end:'August 2022',
            shortDescription:[
            "As a FullStack Developer at BestQuote, I played a key role in creating APIs and developing frontend pages using React and Django Rest Framework.",
     "I successfully navigated the project's codebase, ensuring effective communication between the frontend and backend components."
@@ -35,7 +35,7 @@ function Experience() {
 
         {name:"Amalitech Trainee", 
         role:"Frontend Developer",
-         start:'Feburary 2022',
+         start:'April 2023',
           end:'May 2023',
            shortDescription:[
              "As an AmaliTech trainee, I contributed to the development of the authentication system.",
@@ -46,8 +46,8 @@ function Experience() {
         
         {name:"CodeWright", 
         role:"Frontend Developer",
-         start:'Feburary 2022',
-          end:'May 2023',
+         start:'June 2023',
+          end:'December 2023',
            shortDescription:[
           "As a Frontend Developer at CodeWright, I focused on creating challenges with an emphasis on UI and responsive design.",
           "My role centered around implementing and optimizing user interfaces for foreign clients, ensuring a seamless and engaging experience."

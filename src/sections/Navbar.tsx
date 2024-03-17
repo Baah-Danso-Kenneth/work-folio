@@ -85,7 +85,7 @@ function Navbar() {
             }
           </ul>
           <div className="nav-items-button">
-            <Button text='Resume' link="/assets/documents/cv.pdf"/>
+            <Button text='Resume' link="/assets/documents/ken_cv.pdf"/>
           </div>
          </div>
       </div>
